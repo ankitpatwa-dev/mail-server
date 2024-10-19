@@ -28,7 +28,7 @@ const server = new SMTPServer({
     },
     onData(stream, session, cb){
         stream.on(`data`, (data)=>console.log(`data -> ${data.toString()}`))
-        cb(null); 
+        cb(); 
         stream.on('end',cb)
 
     }
