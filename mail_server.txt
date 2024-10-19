@@ -1,2 +1,22 @@
-1) WHat is Mail Server
+hello@theankit.xyz => theankit.xyz (mx) => mail.theankit.xyz (A) => IP Address (VM/EC2)
 
+
+DNS Records
+1) MX => mail exchange
+2) A => A name (It will point to the System)
+3) SPF
+4) DKIM
+5) DMARC
+
+
+
+SMTP communication
+1) HELLO/EHLO
+2) MAIL From
+3) RCPT to
+4) DATA
+5) QUIT
+
+SMTP Default Port
+1) SMTP -> 25
+2) SMTP Secure -> 465
