@@ -10,6 +10,7 @@
   "description": "",
   "dependencies": {
     "@types/smtp-server": "^3.5.10",
+    "nodemailer": "^6.9.15",
     "smtp-server": "^3.13.5"
   }
 }
