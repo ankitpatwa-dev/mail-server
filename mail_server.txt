@@ -4,9 +4,9 @@ hello@theankit.xyz => theankit.xyz (mx) => mail.theankit.xyz (A) => IP Address (
 DNS Records
 1) MX => mail exchange
 2) A => A name (It will point to the System)
-3) SPF
-4) DKIM
-5) DMARC
+3) SPF => SPF (Sender Policy Framework): Ensures that the IP sending the email is authorized to send email for your domain.
+4) DKIM => DKIM (DomainKeys Identified Mail): Provides a digital signature to verify that the email is from your domain.
+5) DMARC => DMARC (Domain-based Message Authentication, Reporting, and Conformance): Tells receiving mail servers how to handle unauthenticated emails.
 
 
 
