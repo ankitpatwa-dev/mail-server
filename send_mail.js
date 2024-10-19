@@ -12,7 +12,7 @@ async function sendTestEmail() {
     try {
         let info = await transporter.sendMail({
             from: 'ak@theankit.xyz',    // Sender address
-            to: 'ankitpatwa2141@gmail.com',                    // Receiver address
+            to: 'hello@theankit.xyz',                    // Receiver address
             subject: 'Hello from Node.js',                 // Email subject
             text: 'This is a test email from Nodemailer!', // Email plain text body
             html: '<b>This is a test email from Nodemailer!</b>' // Email HTML body
