@@ -4,7 +4,10 @@ const nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
     host: 'localhost',  // Your SMTP server
     port: 25,         // Port of your SMTP server
-    secure: false       // If true, use TLS; false otherwise
+    secure: false,
+    tls: {
+        rejectUnauthorized: false  // Allow self-signed certificates
+    }       // If true, use TLS; false otherwise
 });
 
 // Send an email
